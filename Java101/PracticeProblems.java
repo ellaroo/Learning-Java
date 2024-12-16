@@ -11,6 +11,30 @@ public class PracticeProblems {
             }
             return add;
         }
-    }
 
-// set sum tto 0, then check each arr[thing] and add 1 to sum if thing = n
+        static String reverseArray() {
+            int[] arr = {1,2,3,4,5};
+            String reverse = "(";
+            for (int i=4;i>-1;--i) {
+                reverse += arr [i] + ",";
+            }
+            return reverse + ")";
+        }
+    
+      //  static int sumGrid (int sum) {
+          //  int[][] arr = {{1}, {2}};
+
+
+       // }
+        //Write a function called sumGrid that takes a 2d double array grid and returns the sum of all the 
+        // elements. Hint: you can do this with nested for loops (look up what that is).
+
+        static int fib (int n) {
+            return n = n - 1 + n - 2;
+        }
+
+        //Write a function called fib that takes an integer n and returns the nth number in the
+        // fibonacci sequence (starting with 0)
+ 
+
+    }
